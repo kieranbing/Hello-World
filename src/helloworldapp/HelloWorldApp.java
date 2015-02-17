@@ -46,7 +46,8 @@ public class HelloWorldApp {
         */ 
         int i = 1; 
         while (i <= 100){
-        	if (i/10 ==6){
+             i++;	
+            if (i/10 ==6){
         		break;
 		}
 		else if (i%10 ==0){
@@ -54,7 +55,6 @@ public class HelloWorldApp {
         		continue; 
                 }
             System.out.print(i + ", ");
-            i++;
         }
     }
     
